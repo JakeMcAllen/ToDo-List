@@ -168,6 +168,8 @@ export default {
     margin: 10px auto 1% auto;
     padding: 5px;
     overflow: auto;
+    background-color: white;
+    border-radius: 5px;
 }
 #newjob {
     height: 25px;

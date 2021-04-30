@@ -66,6 +66,11 @@ p {
 }
 #logIn_div {
     margin-top: 10%;
+    background: cornflowerblue;
+    width: 50%;
+    margin: 10% auto;
+    padding: 5%;
+    border-radius: 10px;
 }
 #usernameBox {
     width: 250px;

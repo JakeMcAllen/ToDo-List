@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <img src="@/assets/background_img.jpg" alt="img of background of jellyfish">
     <p> Made by Giorgio Allena </p>
     <div id="nav">
       <router-link to="/">HomePage</router-link> |
@@ -11,6 +12,14 @@
 </template>
 
 <style>
+img {
+  display: flex;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.4;
+  margin-left: 5%;
+  margin-top: 2%;
+}
 p {
     margin: 0;
     color: blue;
